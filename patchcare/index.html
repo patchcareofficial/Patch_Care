@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PatchCare | Fever Monitoring and Healthcare Essentials</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/triapatch.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div id="site-header"></div>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-copy">
+                <span class="eyebrow">SMARTER CARE STARTS HERE</span>
+                <h1>Every Patch,<br><span>A Little More Care.</span></h1>
+                <p>
+                    Meet TriaPatch, a wearable temperature-monitoring patch that
+                    changes color with body temperature, making it easy for
+                    caregivers and healthcare providers to detect and monitor
+                    fever.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn" href="#buy">Get TriaPatch</a>
+                    <a class="btn btn-light" href="#how">See How It Works</a>
+                </div>
+                <div class="hero-note">
+                    <span class="check">✓</span>
+                    Thoughtful essentials for everyday healthcare
+                </div>
+            </div>
+
+            <div class="hero-art">
+                <div class="hero-circle"></div>
+                <div class="medical-visual">
+                    <div class="medical-orbit orbit-one"></div>
+                    <div class="medical-orbit orbit-two"></div>
+                    <div class="medical-center">
+                        <span class="medical-cross">+</span>
+                        <span class="medical-heart">♥</span>
+                    </div>
+                    <div class="medical-float float-cross">✚</div>
+                    <div class="medical-float float-heart">♥</div>
+                    <div class="medical-float float-pill">✚</div>
+                    <div class="heartbeat-line">
+                        <svg viewBox="0 0 500 100" preserveAspectRatio="none">
+                            <polyline points="0,50 100,50 130,50 150,20 170,80 195,5 220,65 245,50 500,50"/>
+                        </svg>
+                    </div>
+                    <div class="medical-caption">
+                        <strong>Care made simple</strong>
+                        <small>Everyday healthcare essentials</small>
+                    </div>
+                </div>
+                <span class="float-tag">Your care, our priority</span>
+            </div>
+        </section>
+
+        <section class="section container tria-demo" id="colors">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">UNDERSTAND THE COLORS</span>
+                    <h2>Discover TriaPatch</h2>
+                    <p>The thermo-reactive layer shows normal temperature, fever, or high fever.</p>
+                </div>
+            </div>
+
+            <div class="demo-card">
+                <div class="patch" id="patch" data-state="green">
+                    <span class="seg g"></span>
+                    <span class="seg y"></span>
+                    <span class="seg r"></span>
+                </div>
+
+                <div class="demo-tabs" role="tablist" aria-label="TriaPatch fever indicators">
+                    <button type="button" role="tab" data-s="green">Green – Normal</button>
+                    <button type="button" role="tab" data-s="yellow">Yellow – Fever</button>
+                    <button type="button" role="tab" data-s="red">Red – High Fever</button>
+                </div>
+
+                <div class="demo-msg" aria-live="polite">
+                    <strong id="demo-title">Normal</strong>
+                    <span id="demo-text">No fever detected.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container tria-how" id="how">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">HOW IT WORKS</span>
+                    <h2>Know the signs. Know what to do.</h2>
+                    <p>Three simple steps, no extra tools needed.</p>
+                </div>
+            </div>
+
+            <div class="tria-steps">
+                <article>
+                    <span class="step-n">1</span>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="8" y="14" width="32" height="20" rx="8"/>
+                            <path d="M19 24h10M24 19v10"/>
+                        </svg>
+                    </div>
+                    <h3>Apply TriaPatch</h3>
+                    <p>Place the gentle, skin-friendly patch on the skin following the product instructions.</p>
+                </article>
+
+                <article>
+                    <span class="step-n">2</span>
+                    <div class="step-icon step-icon-colors" aria-hidden="true">
+                        <span class="dot dg"></span>
+                        <span class="dot dy"></span>
+                        <span class="dot dr"></span>
+                    </div>
+                    <h3>Watch it change color</h3>
+                    <p>The thermo-reactive, sweat-sensitive layer changes color based on body temperature.</p>
+                </article>
+
+                <article>
+                    <span class="step-n">3</span>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M24 40S8 30 8 19a8 8 0 0 1 16-3 8 8 0 0 1 16 3c0 11-16 21-16 21z"/>
+                        </svg>
+                    </div>
+                    <h3>Take appropriate action</h3>
+                    <p>Keep monitoring over time, and seek medical assessment when fever or high fever is shown.</p>
+                </article>
+            </div>
+
+            <div class="tria-legend">
+                <span><i class="lg g"></i>Normal</span>
+                <span><i class="lg y"></i>Fever</span>
+                <span><i class="lg r"></i>High Fever</span>
+            </div>
+        </section>
+
+        <section class="section category-section">
+            <div class="container tria-story tria-story-text">
+                <div>
+                    <span class="eyebrow">HOW THE PATCH WORKS</span>
+                    <h2>A thermo-reactive patch that changes color with body temperature.</h2>
+                    <p>
+                        TriaPatch is a wearable temperature-monitoring patch
+                        with a thermo-reactive, sweat-sensitive layer. As the
+                        body temperature changes, the layer changes color to
+                        show normal temperature, fever, or high fever, so you
+                        can check at a glance without extra steps.
+                    </p>
+                    <p>
+                        Made with gentle, skin-friendly material and designed
+                        for long-lasting monitoring, it gives caregivers and
+                        healthcare providers a simple, convenient way to keep
+                        track of a patient's temperature and support better
+                        patient care.
+                    </p>
+                    <p class="tria-fine">
+                        TriaPatch is an aid for monitoring and awareness.
+                        It does not replace a clinical thermometer, medical
+                        diagnosis, or professional medical advice. Follow the
+                        product's validated instructions and seek medical care
+                        when needed.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container tria-buy" id="buy">
+            <img src="assets/images/products/Triapatch.jpg"
+                 alt="Safe-Patch temperature-monitoring patch with its box"
+                 loading="lazy">
+
+            <div class="tria-buy-info">
+                <h2 id="buy-name"></h2>
+                <p id="buy-desc"></p>
+                <div class="product-price" id="buy-price"></div>
+
+                <label>Quantity
+                    <input class="quantity-input"
+                           id="detail-quantity"
+                           type="number"
+                           min="1"
+                           value="1">
+                </label>
+
+                <div class="hero-actions">
+                    <button class="btn" type="button" data-add-cart="1">
+                        Add to Cart
+                    </button>
+                    <button class="btn btn-light" type="button" id="buy-now">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container tria-faq">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">GOOD TO KNOW</span>
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+            </div>
+
+            <details>
+                <summary>What is TriaPatch?</summary>
+                <p>
+                    TriaPatch is a wearable temperature-monitoring patch with a
+                    thermo-reactive, sweat-sensitive layer that changes color
+                    based on body temperature to show normal, fever, or high fever.
+                </p>
+            </details>
+
+            <details>
+                <summary>What does green mean?</summary>
+                <p>Green means normal body temperature, with no fever shown by the indicator.</p>
+            </details>
+
+            <details>
+                <summary>What does yellow mean?</summary>
+                <p>Yellow indicates fever. Monitor the person's temperature and condition closely.</p>
+            </details>
+
+            <details>
+                <summary>What does red mean?</summary>
+                <p>Red indicates high fever. Seek prompt medical assessment or consult the Rural Health Unit (RHU).</p>
+            </details>
+
+            <details>
+                <summary>Does TriaPatch cure fever?</summary>
+                <p>
+                    No. TriaPatch is intended for fever monitoring and alert
+                    purposes. It does not treat or cure fever.
+                </p>
+            </details>
+
+            <details>
+                <summary>Can TriaPatch replace a thermometer?</summary>
+                <p>
+                    No. Use a clinical thermometer and follow healthcare
+                    professional advice for accurate temperature assessment.
+                </p>
+            </details>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/triapatch.js"></script>
+</body>
+</html>

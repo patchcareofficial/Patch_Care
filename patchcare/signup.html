@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create account | PatchCare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div id="site-header"></div>
+
+    <main class="auth-wrap">
+        <form class="auth-card" id="signup-form">
+            <span class="eyebrow">JOIN PATCHCARE</span>
+            <h1>Create account</h1>
+            <p>Set up your PatchCare demo profile.</p>
+
+            <label>Full name
+                <input name="name" required>
+            </label>
+
+            <label>Email address
+                <input name="email" type="email" required>
+            </label>
+
+            <label>Username
+                <input name="username" required>
+            </label>
+
+            <label>Password
+                <div class="password-wrap">
+                    <input name="password" id="signup-password"
+                           type="password" minlength="8"
+                           required autocomplete="new-password">
+                    <button type="button" class="password-toggle"
+                            data-toggle="signup-password">Show</button>
+                </div>
+                <small class="password-help">
+                    Use at least 8 characters, including uppercase,
+                    lowercase, a number, and a special character.
+                </small>
+            </label>
+
+            <label>Confirm password
+                <div class="password-wrap">
+                    <input name="confirm" id="signup-confirm"
+                           type="password" minlength="8"
+                           required autocomplete="new-password">
+                    <button type="button" class="password-toggle"
+                            data-toggle="signup-confirm">Show</button>
+                </div>
+            </label>
+
+            <button class="btn full-width" type="submit">Create account</button>
+
+            <p class="auth-foot">
+                Already registered? <a href="login.html">Log in</a>
+            </p>
+
+            <small class="notice">
+                Demo only: account details are stored in this browser and
+                are not securely authenticated.
+            </small>
+        </form>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
